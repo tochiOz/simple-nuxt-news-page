@@ -1,8 +1,10 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="dark">
-      <b-navbar-nav>
-        <b-nav-item href="#">Nigerian News</b-nav-item>
+    <b-navbar type="dark" variant="danger">
+      <b-navbar-brand href="#">Nigeria News</b-navbar-brand>
+
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item href="">GitHub Code</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>

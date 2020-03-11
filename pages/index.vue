@@ -1,13 +1,15 @@
 <template>
   <div>
     <Banner />
+    <News />
   </div>
 </template>
 
 <script>
 import Banner from './../components/banner'
+import News from './../components/news'
 export default {
-  components: { Banner },
+  components: { Banner, News },
 
   mounted() {
     return this.$store.dispatch('loadNews')
